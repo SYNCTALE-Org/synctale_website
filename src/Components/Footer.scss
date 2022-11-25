@@ -15,6 +15,7 @@ footer{
 {
    position: absolute;
    left: 0;
+   right: 0;
 }
 
 .footer-content{
@@ -38,10 +39,13 @@ footer{
     color: #cacdd2;
 }
 .socials{
+    width: fit-content;
+    display: flex;
     list-style: none;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-left: 0;
     margin: 1rem 0 3rem 0;
 }
 .socials li{
@@ -121,8 +125,14 @@ float: inline-start;
 padding-right: 10px;
 display: block;
 }
-
-@media (max-width:500px) {
+@media (max-width:600px) {
+.footer-content p
+{
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+}
+}
+@media (max-width:600px) {
 .footer-menu ul{
   display: flex;
   margin-top: 10px;
