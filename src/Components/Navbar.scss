@@ -63,11 +63,13 @@ color: var(--color-yellow);
 .hamburger{
   margin: auto 0;
   display: none;
+  font-size: 1.3em;
+  color: var(--color-dark-cyan);
   cursor: pointer;
 }
 .hamburger div {
- width: 35px;
-  height: 3px;
+ width: 37px;
+  height: 4px;
   background-color: white;
   margin: 6px 0;
   transition: 0.4s;
@@ -84,9 +86,14 @@ color: var(--color-yellow);
     align-self: flex-start;
   }
     .navbar{
-        flex-direction: row;}
+            display: flex;
+            flex-direction: row;
+            flex: auto;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+          }
         .logo{
-            width: 6rem;
+            width: 9rem;
             padding-left: 1rem;
         }
         .mail{
@@ -94,11 +101,12 @@ color: var(--color-yellow);
             font-size: 9px;
             margin-top: 0;
             margin-bottom: 0;
-            transform: translateY(2.1rem);
+            transform: translateY(-0.5rem);
+            padding-left: 1rem;
     }
      .hamburger{
     display: block!important;
-    color: black;
+    padding-right: 1rem;
 
   }
   .navbar.responsive {position: relative;}
@@ -117,6 +125,7 @@ color: var(--color-yellow);
   {
     margin-left: 0;
     align-content: flex-start;
+    flex-direction: column;
     
   }
 
