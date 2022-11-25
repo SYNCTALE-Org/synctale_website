@@ -1,5 +1,5 @@
 import "./Hero.scss";
-import Banner from "../media/Hero-Banner.png";
+import Banner from "../media/Hero-Banner.gif";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 function Hero() {

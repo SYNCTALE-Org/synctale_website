@@ -54,6 +54,11 @@ footer{
 .logo-footer
 {
     height: 4rem;
+    transition: all 300ms ease-in-out;
+}
+.logo-footer:hover
+{
+    transform: translateY(-0.2rem);
 }
 .socials a{
     text-decoration: none;
@@ -72,6 +77,12 @@ footer{
     transition: all 0.4s ease;
 
     
+}
+.social-footer:hover
+{
+    border-color: var(--color-cyan);
+    background-color: white;
+
 }
 .socials a{
     display: flex;
