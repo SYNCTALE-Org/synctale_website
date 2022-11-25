@@ -5,10 +5,24 @@ import reportWebVitals from './reportWebVitals';
 /* Components Imports */
 /* Navbar*/
 import Navbar from './Components/Navbar';
+/* Hero */
+import Hero from './Components/Hero';
+/* Our Team */
+import OurTeam from './Components/OurTeam';
+/* Services */
+import Services from './Components/Services';
+import Footer from './Components/Footer';
+
+/* End of components  */
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Navbar />
+    <Hero />
+    <OurTeam />
+    <Services />
+    <Footer />
   </React.StrictMode>
 );
 
