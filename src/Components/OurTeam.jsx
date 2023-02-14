@@ -27,28 +27,6 @@ function OurTeam() {
             <h3 class="title">Haidar al Emir</h3>
             <span class="post">Tech Lead</span>
             <br />
-            <ul class="social">
-              <li>
-                <a>
-                  <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                </a>
-              </li>
-              <li>
-                <a>
-                  <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-                </a>
-              </li>
-              <li>
-                <a>
-                  <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
-                </a>
-              </li>
-              <li>
-                <a>
-                  <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
-                </a>
-              </li>
-            </ul>
           </div>
         </div>
 
@@ -60,28 +38,6 @@ function OurTeam() {
             <h3 class="title">Liliane Jaafar </h3>
             <span class="post">Graphic Designer</span>
             <br />
-            <ul class="social">
-              <li>
-                <a>
-                  <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                </a>
-              </li>
-              <li>
-                <a>
-                  <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-                </a>
-              </li>
-              <li>
-                <a>
-                  <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
-                </a>
-              </li>
-              <li>
-                <a>
-                  <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
-                </a>
-              </li>
-            </ul>
           </div>
         </div>
 
@@ -93,28 +49,6 @@ function OurTeam() {
             <h3 class="title">Dani Abdelkhalek</h3>
             <span class="post">Vidiographer</span>
             <br />
-            <ul class="social">
-              <li>
-                <a>
-                  <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-                </a>
-              </li>
-              <li>
-                <a>
-                  <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
-                </a>
-              </li>
-              <li>
-                <a>
-                  <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
-                </a>
-              </li>
-            </ul>
           </div>
         </div>
         <div class="col-md-3 col-sm-6">
@@ -127,28 +61,6 @@ function OurTeam() {
               Digital Media & Digital Transformation
               <br /> Consultant and Training
             </span>
-            <ul class="social">
-              <li>
-                <a>
-                  <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-                </a>
-              </li>
-              <li>
-                <a>
-                  <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
-                </a>
-              </li>
-              <li>
-                <a>
-                  <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
-                </a>
-              </li>
-            </ul>
           </div>
         </div>
       </div>
