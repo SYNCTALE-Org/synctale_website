@@ -17,47 +17,47 @@ import {
 
 function OurTeam() {
   return (
-    <div class="container-our-team" id="ourteam">
-      <div class="row">
-        <div class="col-md-3 col-sm-6">
-          <div class="our-team">
-            <div class="pic">
+    <div className="container-our-team" id="ourteam">
+      <div className="row">
+        <div className="col-md-3 col-sm-6">
+          <div className="our-team">
+            <div className="pic">
               <img src={OTP1} />
             </div>
-            <h3 class="title">Haidar al Emir</h3>
-            <span class="post">Tech Lead</span>
+            <h3 className="title">Haidar al Emir</h3>
+            <span className="post">Tech Lead</span>
             <br />
           </div>
         </div>
 
-        <div class="col-md-3 col-sm-6">
-          <div class="our-team">
-            <div class="pic">
+        <div className="col-md-3 col-sm-6">
+          <div className="our-team">
+            <div className="pic">
               <img src={OTP2} />
             </div>
-            <h3 class="title">Liliane Jaafar </h3>
-            <span class="post">Graphic Designer</span>
+            <h3 className="title">Liliane Jaafar </h3>
+            <span className="post">Graphic Designer</span>
             <br />
           </div>
         </div>
 
-        <div class="col-md-3 col-sm-6">
-          <div class="our-team">
-            <div class="pic">
+        <div className="col-md-3 col-sm-6">
+          <div className="our-team">
+            <div className="pic">
               <img src={OTP3} />
             </div>
-            <h3 class="title">Dani Abdelkhalek</h3>
-            <span class="post">Vidiographer</span>
+            <h3 className="title">Dani Abdelkhalek</h3>
+            <span className="post">Vidiographer</span>
             <br />
           </div>
         </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="our-team">
-            <div class="pic">
+        <div className="col-md-3 col-sm-6">
+          <div className="our-team">
+            <div className="pic">
               <img src={OTP4} />
             </div>
-            <h3 class="title">Maida Aboulhosn</h3>
-            <span class="post">
+            <h3 className="title">Maida Aboulhosn</h3>
+            <span className="post">
               Digital Media & Digital Transformation
               <br /> Consultant and Training
             </span>

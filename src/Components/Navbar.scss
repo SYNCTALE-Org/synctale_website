@@ -5,7 +5,8 @@
     position: fixed;
      top: 0;
      left: 0;
-     height: 6rem;
+     min-height: 6rem;
+     height: fit-content;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -83,19 +84,19 @@ color: var(--color-yellow);
 
 
 @media screen and (max-width: 600px) {
-  .navbar a:not(:first-child) {display: none;}
-  .navbar a.icon {
-    float: right;
-    display: block;
-  }
-  .navbar a{
-    align-self: flex-start;
-  }
+  
+  .Logo-Area{width:100vw;}
+    .section
+    {
+      font-size: 10px;
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
     .navbar{
             display: flex;
             flex-direction: row;
             flex: auto;
-            flex-wrap: nowrap;
+            flex-wrap: wrap;
             justify-content: space-between;
           }
         .logo{
@@ -110,11 +111,6 @@ color: var(--color-yellow);
             transform: translateY(-0.5rem);
             padding-left: 1rem;
     }
-     .hamburger{
-    display: block!important;
-    padding-right: 1rem;
-
-  }
   .navbar.responsive {position: relative;}
   .navbar.responsive .icon {
     position: absolute;
