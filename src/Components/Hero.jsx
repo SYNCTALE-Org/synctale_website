@@ -7,10 +7,8 @@ function Hero() {
     <div className="container" id="home">
       <div className="text-area">
         <p className="hero-text">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem
-          molestias eligendi maxime, est nemo incidunt deleniti laborum
-          similique voluptate. Consequatur at recusandae quos minima unde ad
-          nulla voluptates, debitis facere!
+          To be the leading provider of top-quality and professional customized
+          digital products tailored to your needs
         </p>
         <button className="button">
           <a className="icon-send">

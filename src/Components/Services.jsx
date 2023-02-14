@@ -6,9 +6,20 @@ import {
   faBrush,
   faHammer,
   faWrench,
+  faCode,
+  faMobile,
+  faSuitcase,
+  faBroadcastTower,
+  faChartBar,
+  faChalkboardTeacher,
+  faChartGantt,
+  faChartSimple,
+  faChartPie,
+  faLightbulb,
 } from "@fortawesome/free-solid-svg-icons";
 
 import "./Services.scss";
+import { faDigitalOcean, faMegaport } from "@fortawesome/free-brands-svg-icons";
 
 function Services() {
   return (
@@ -22,13 +33,13 @@ function Services() {
             <div className="card">
               <div className="icon-wrapper">
                 <i>
-                  <FontAwesomeIcon icon={faHammer}></FontAwesomeIcon>
+                  <FontAwesomeIcon icon={faCode}></FontAwesomeIcon>
                 </i>
               </div>
-              <h3>Service Heading</h3>
+              <h3>Web Development</h3>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Quisquam consequatur necessitatibus eaque.
+                With a strong online presence, you can gain a larger customer
+                base.
               </p>
             </div>
           </div>
@@ -36,13 +47,13 @@ function Services() {
             <div className="card">
               <div className="icon-wrapper">
                 <i>
-                  <FontAwesomeIcon icon={faBrush}></FontAwesomeIcon>
+                  <FontAwesomeIcon icon={faMobile}></FontAwesomeIcon>
                 </i>
               </div>
-              <h3>Service Heading</h3>
+              <h3>Mobile Applications</h3>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Quisquam consequatur necessitatibus eaque.
+                With the right mobile application tailored to your business, you
+                can make your customers happier
               </p>
             </div>
           </div>
@@ -50,13 +61,13 @@ function Services() {
             <div className="card">
               <div className="icon-wrapper">
                 <i>
-                  <FontAwesomeIcon icon={faWrench} />
+                  <FontAwesomeIcon icon={faLightbulb} />
                 </i>
               </div>
-              <h3>Service Heading</h3>
+              <h3>Digital Strategy and Innovation management</h3>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Quisquam consequatur necessitatibus eaque.
+                Identity and utilize your scarcest resources to achieve a
+                competitive position
               </p>
             </div>
           </div>
@@ -64,13 +75,13 @@ function Services() {
             <div className="card">
               <div className="icon-wrapper">
                 <i>
-                  <FontAwesomeIcon icon={faTruckPickup}></FontAwesomeIcon>
+                  <FontAwesomeIcon icon={faDigitalOcean}></FontAwesomeIcon>
                 </i>
               </div>
-              <h3>Service Heading</h3>
+              <h3>Digital Transformation</h3>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Quisquam consequatur necessitatibus eaque.
+                With your customer on top of our mind, we transform your
+                business to increase your customer satisfaction
               </p>
             </div>
           </div>
@@ -78,13 +89,13 @@ function Services() {
             <div className="card">
               <div className="icon-wrapper">
                 <i>
-                  <FontAwesomeIcon icon={faBroom}></FontAwesomeIcon>
+                  <FontAwesomeIcon icon={faChartBar}></FontAwesomeIcon>
                 </i>
               </div>
-              <h3>Service Heading</h3>
+              <h3>Digital Marketing</h3>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Quisquam consequatur necessitatibus eaque.
+                Promote your business by unlocking customer behavior via
+                data-driven strategies using the right channel
               </p>
             </div>
           </div>
@@ -92,10 +103,10 @@ function Services() {
             <div className="card">
               <div className="icon-wrapper">
                 <i>
-                  <FontAwesomeIcon icon={faPlug}></FontAwesomeIcon>
+                  <FontAwesomeIcon icon={faChalkboardTeacher}></FontAwesomeIcon>
                 </i>
               </div>
-              <h3>Service Heading</h3>
+              <h3>Training</h3>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Quisquam consequatur necessitatibus eaque.

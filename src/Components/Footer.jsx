@@ -16,10 +16,8 @@ function Footer() {
         <div className="footer-content">
           <img className="logo-footer" src={Logo} alt="" />
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
-            perferendis quos at illum quia aliquam quasi beatae, repellendus
-            aliquid veniam repudiandae, accusantium, aut a quae debitis ea!
-            Optio, nemo velit!
+            To be the leading provider of top-quality and professional
+            customized digital products tailored to your needs
           </p>
           <ul className="socials">
             <li>
@@ -61,7 +59,7 @@ function Footer() {
         </div>
         <div className="footer-bottom">
           <p>
-            By &copy; <a href="#">Sync Tale</a>{" "}
+            Powered By &copy; <a href="#">Sync Tale</a>
           </p>
         </div>
       </footer>

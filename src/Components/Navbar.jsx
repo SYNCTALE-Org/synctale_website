@@ -3,7 +3,12 @@ import Logo from "../media/Logo.png";
 import { Link } from "react-scroll";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { useState } from "react";
+
 function Navbar() {
+  const toggleMenu = () => {
+    alert("Great Shot!");
+  };
   return (
     <div className="navbar">
       <a className href="">
@@ -29,7 +34,7 @@ function Navbar() {
           Services
         </Link>
       </a>
-      <a href="" className="hamburger">
+      <a href="" className="hamburger" onClick={toggleMenu}>
         <FontAwesomeIcon icon={faBars}></FontAwesomeIcon>
       </a>
     </div>

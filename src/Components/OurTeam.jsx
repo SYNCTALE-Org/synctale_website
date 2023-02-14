@@ -1,8 +1,8 @@
 import "./OurTeam.scss";
-import OTP1 from "../media/image1.jpg";
-import OTP2 from "../media/image2.jpg";
-import OTP3 from "../media/image3.jpg";
-import OTP4 from "../media/image4.jpg";
+import OTP1 from "../media/21.png";
+import OTP2 from "../media/20.png";
+import OTP3 from "../media/19.png";
+import OTP4 from "../media/22.png";
 import Facebook from "../media/facebook.svg";
 import Instagram from "../media/instagram.svg";
 import Twitter from "../media/twitter.svg";
@@ -24,8 +24,9 @@ function OurTeam() {
             <div class="pic">
               <img src={OTP1} />
             </div>
-            <h3 class="title">Williamson</h3>
-            <span class="post">Web Developer</span>
+            <h3 class="title">Haidar al Emir</h3>
+            <span class="post">Tech Lead</span>
+            <br />
             <ul class="social">
               <li>
                 <a>
@@ -56,8 +57,9 @@ function OurTeam() {
             <div class="pic">
               <img src={OTP2} />
             </div>
-            <h3 class="title">Kristiana</h3>
-            <span class="post">Web Designer</span>
+            <h3 class="title">Liliane Jaafar </h3>
+            <span class="post">Graphic Designer</span>
+            <br />
             <ul class="social">
               <li>
                 <a>
@@ -88,8 +90,9 @@ function OurTeam() {
             <div class="pic">
               <img src={OTP3} />
             </div>
-            <h3 class="title">Kristiana</h3>
-            <span class="post">Web Designer</span>
+            <h3 class="title">Dani Abdelkhalek</h3>
+            <span class="post">Vidiographer</span>
+            <br />
             <ul class="social">
               <li>
                 <a>
@@ -119,8 +122,11 @@ function OurTeam() {
             <div class="pic">
               <img src={OTP4} />
             </div>
-            <h3 class="title">Kristiana</h3>
-            <span class="post">Web Designer</span>
+            <h3 class="title">Maida Aboulhosn</h3>
+            <span class="post">
+              Digital Media & Digital Transformation
+              <br /> Consultant and Training
+            </span>
             <ul class="social">
               <li>
                 <a>
