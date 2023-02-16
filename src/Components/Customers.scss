@@ -1,0 +1,31 @@
+.Customers{
+    min-height: 100vh;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.customer{
+    width: 150px;
+    height: 150px;
+}
+.Title
+{
+    width: 100%;
+    padding-bottom: 20vh;
+
+    color: var(--color-yellow);
+    text-align: center;
+}
+.SliderContainer
+{
+    width: 85%;
+}
+.logoContainer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

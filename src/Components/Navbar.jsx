@@ -16,20 +16,10 @@ const Navbar = () => {
             <a className="mail">SyncTale@gmail.com</a>
           </div>
         </a>
+
         <a className="section">
           <Link to="home" spy={true} smooth={true} offset={50} duration={500}>
             Home
-          </Link>
-        </a>
-        <a className="section">
-          <Link
-            to="ourteam"
-            spy={true}
-            smooth={true}
-            offset={50}
-            duration={500}
-          >
-            Our Team
           </Link>
         </a>
         <a className="section">
@@ -41,6 +31,17 @@ const Navbar = () => {
             duration={500}
           >
             Services
+          </Link>
+        </a>
+        <a className="section">
+          <Link
+            to="ourteam"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+          >
+            Our Team
           </Link>
         </a>
       </div>

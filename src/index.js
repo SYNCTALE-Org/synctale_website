@@ -12,6 +12,7 @@ import OurTeam from './Components/OurTeam';
 /* Services */
 import Services from './Components/Services';
 import Footer from './Components/Footer';
+import Customers from "./Components/Customers";
 
 /* End of components  */
 
@@ -22,6 +23,7 @@ root.render(
     <Hero />
     <OurTeam />
     <Services />
+    <Customers />
     <Footer />
   </React.StrictMode>
 );
