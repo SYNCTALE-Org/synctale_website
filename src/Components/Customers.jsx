@@ -23,7 +23,7 @@ import Customer16 from "../media/customers/customer16.png";
 
 const Customers = () => {
   return (
-    <div className="Customers">
+    <div id="ourWork" className="Customers">
       <div className="Title">
         <h1>Our Work</h1>
       </div>

@@ -44,6 +44,28 @@ const Navbar = () => {
             Our Team
           </Link>
         </a>
+        <a className="section">
+          <Link
+            to="ourWork"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+          >
+            Our Work
+          </Link>
+        </a>
+        <a className="section">
+          <Link
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+          >
+            Contact Us
+          </Link>
+        </a>
       </div>
     </div>
   );
