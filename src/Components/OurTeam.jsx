@@ -1,5 +1,5 @@
 import "./OurTeam.scss";
-import OTP1 from "../media/21.png";
+import OTP1 from "../media/JadK.jpeg";
 import OTP2 from "../media/20.png";
 import OTP3 from "../media/19.png";
 import OTP4 from "../media/22.png";
@@ -80,7 +80,7 @@ function OurTeam() {
             <div className="pic">
               <img src={OTP1} />
             </div>
-            <h3 className="title">Haidar al Emir</h3>
+            <h3 className="title">Jad K.</h3>
             <span className="post">Tech Lead</span>
             <br />
           </div>
