@@ -15,6 +15,7 @@ import Services from './Components/Services';
 import Footer from './Components/Footer';
 /* Customers */
 import Customers from "./Components/Customers";
+import Contact from "./Components/Contact";
 
 /* End of components  */
 
@@ -26,6 +27,7 @@ root.render(
     <Services />
     <Customers /> {/* Our Work*/}
     <OurTeam />
+    <Contact />
     <Footer />
   </React.StrictMode>
 );
