@@ -27,10 +27,7 @@ function OurTeam() {
               <img src={OTP4} />
             </div>
             <h3 className="title">Maida Aboulhosn</h3>
-            <span className="post">
-              Digital Media & Digital Transformation
-              <br /> Consultant and Training
-            </span>
+            <span className="post">Managing Director</span>
           </div>
         </div>
         <div className="col-md-3 col-sm-6">
