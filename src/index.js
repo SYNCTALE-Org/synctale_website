@@ -23,9 +23,9 @@ root.render(
   <React.StrictMode>
     <Navbar />
     <Hero />
-    <OurTeam />
     <Services />
-    {/*<Customers />    removed temporarly*/}
+    <Customers /> {/* Our Work*/}
+    <OurTeam />
     <Footer />
   </React.StrictMode>
 );

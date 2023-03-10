@@ -25,7 +25,7 @@ const Customers = () => {
   return (
     <div className="Customers">
       <div className="Title">
-        <h1>Our Customers</h1>
+        <h1>Our Work</h1>
       </div>
       <div className="SliderContainer">
         <Swiper
