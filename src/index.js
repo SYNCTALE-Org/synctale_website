@@ -11,7 +11,9 @@ import Hero from './Components/Hero';
 import OurTeam from './Components/OurTeam';
 /* Services */
 import Services from './Components/Services';
+/* Footer */
 import Footer from './Components/Footer';
+/* Customers */
 import Customers from "./Components/Customers";
 
 /* End of components  */
@@ -23,12 +25,8 @@ root.render(
     <Hero />
     <OurTeam />
     <Services />
-    <Customers />
+    {/*<Customers />    removed temporarly*/}
     <Footer />
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
