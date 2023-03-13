@@ -19,6 +19,10 @@
     box-shadow: black;
     font-size: 1.2rem;
 }
+.active
+{
+  color: var(--color-yellow);
+}
 .navbar .section
 {   margin-top: 2rem;
     text-decoration: none;

@@ -20,8 +20,11 @@ import {
 function OurTeam() {
   return (
     <div className="container-our-team" id="ourteam">
+      <div className="Title">
+        <h1>Our Team</h1>
+      </div>
       <div className="row">
-        <div className="col-md-3 col-sm-6">
+        <div className="column">
           <div className="our-team">
             <div className="pic">
               <img src={OTP4} />
@@ -30,7 +33,7 @@ function OurTeam() {
             <span className="post">Managing Director</span>
           </div>
         </div>
-        <div className="col-md-3 col-sm-6">
+        <div className="column">
           <div className="our-team">
             <div className="pic">
               <img src={OTP6} />
@@ -40,7 +43,7 @@ function OurTeam() {
             <br />
           </div>
         </div>
-        <div className="col-md-3 col-sm-6">
+        <div className="column">
           <div className="our-team">
             <div className="pic">
               <img src={OTP5} />
@@ -51,7 +54,7 @@ function OurTeam() {
           </div>
         </div>
 
-        <div className="col-md-3 col-sm-6">
+        <div className="column">
           <div className="our-team">
             <div className="pic">
               <img src={OTP2} />
@@ -62,17 +65,17 @@ function OurTeam() {
           </div>
         </div>
 
-        <div className="col-md-3 col-sm-6">
+        <div className="column">
           <div className="our-team">
             <div className="pic">
               <img src={OTP3} />
             </div>
             <h3 className="title">Dani Abdelkhalek</h3>
-            <span className="post">Vidiographer</span>
+            <span className="post">Videographer & Video Editor</span>
             <br />
           </div>
         </div>
-        <div className="col-md-3 col-sm-6">
+        <div className="column">
           <div className="our-team">
             <div className="pic">
               <img src={OTP1} />

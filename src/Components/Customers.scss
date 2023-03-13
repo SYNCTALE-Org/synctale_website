@@ -1,10 +1,20 @@
 .Customers{
-    min-height: 100vh;
+    min-height: 50vh;
     display: flex;
     width: 100%;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+.swiper-button-next
+{
+    color: var(--color-yellow) !important;
+    right: 0 !important;
+}
+.swiper-button-prev
+{
+    color: var(--color-yellow) !important;
+    left: 0 !important;
 }
 .customer{
     width: 150px;
@@ -13,7 +23,6 @@
 .Title
 {
     width: 100%;
-    padding-bottom: 20vh;
 
     color: var(--color-yellow);
     text-align: center;

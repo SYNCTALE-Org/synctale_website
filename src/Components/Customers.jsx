@@ -20,7 +20,7 @@ import Customer13 from "../media/customers/customer13.png";
 import Customer14 from "../media/customers/customer14.png";
 import Customer15 from "../media/customers/customer15.png";
 import Customer16 from "../media/customers/customer16.png";
-
+import "swiper/css/navigation";
 const Customers = () => {
   return (
     <div id="ourWork" className="Customers">
@@ -40,7 +40,7 @@ const Customers = () => {
           pagination={{
             clickable: true,
           }}
-          navigation={true}
+          navigation
           breakpoints={{
             // when window width is >= 640px
             640: {
