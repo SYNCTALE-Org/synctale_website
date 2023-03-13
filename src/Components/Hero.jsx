@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 function Hero() {
   return (
-    <div className="container" id="home">
+    <div className="containerHome" id="home">
       <div className="text-area">
         <p className="hero-text">
           To be the leading provider of top-quality and professional customized
