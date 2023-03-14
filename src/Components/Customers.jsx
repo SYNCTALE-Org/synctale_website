@@ -20,6 +20,18 @@ import Customer13 from "../media/customers/customer13.png";
 import Customer14 from "../media/customers/customer14.png";
 import Customer15 from "../media/customers/customer15.png";
 import Customer16 from "../media/customers/customer16.png";
+import Customer17 from "../media/customers/new1.png";
+import Customer18 from "../media/customers/new2.png";
+import Customer19 from "../media/customers/new3.png";
+import Customer20 from "../media/customers/new4.png";
+import Customer21 from "../media/customers/new5.png";
+import Customer22 from "../media/customers/new6.png";
+import Customer23 from "../media/customers/new7.png";
+import Customer24 from "../media/customers/new8.png";
+import Customer25 from "../media/customers/new9.png";
+import Customer26 from "../media/customers/new10.png";
+import Customer27 from "../media/customers/new11.png";
+import Customer28 from "../media/customers/new12.png";
 import "swiper/css/navigation";
 const Customers = () => {
   return (
@@ -161,6 +173,90 @@ const Customers = () => {
             <div className="logoContainer">
               <a href="">
                 <img className="customer" src={Customer16} alt="" />
+              </a>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="logoContainer">
+              <a href="">
+                <img className="customer" src={Customer17} alt="" />
+              </a>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="logoContainer">
+              <a href="">
+                <img className="customer" src={Customer18} alt="" />
+              </a>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="logoContainer">
+              <a href="">
+                <img className="customer" src={Customer19} alt="" />
+              </a>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="logoContainer">
+              <a href="">
+                <img className="customer" src={Customer20} alt="" />
+              </a>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="logoContainer">
+              <a href="">
+                <img className="customer" src={Customer21} alt="" />
+              </a>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="logoContainer">
+              <a href="">
+                <img className="customer" src={Customer22} alt="" />
+              </a>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="logoContainer">
+              <a href="">
+                <img className="customer" src={Customer23} alt="" />
+              </a>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="logoContainer">
+              <a href="">
+                <img className="customer" src={Customer24} alt="" />
+              </a>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="logoContainer">
+              <a href="">
+                <img className="customer" src={Customer25} alt="" />
+              </a>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="logoContainer">
+              <a href="">
+                <img className="customer" src={Customer26} alt="" />
+              </a>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="logoContainer">
+              <a href="">
+                <img className="customer" src={Customer27} alt="" />
+              </a>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="logoContainer">
+              <a href="">
+                <img className="customer" src={Customer28} alt="" />
               </a>
             </div>
           </SwiperSlide>
