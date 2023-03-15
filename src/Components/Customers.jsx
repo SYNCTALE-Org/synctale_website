@@ -32,6 +32,7 @@ import Customer25 from "../media/customers/new9.png";
 import Customer26 from "../media/customers/new10.png";
 import Customer27 from "../media/customers/new11.png";
 import Customer28 from "../media/customers/new12.png";
+import Customer29 from "../media/customers/new13.png";
 import "swiper/css/navigation";
 const Customers = () => {
   return (
@@ -257,6 +258,13 @@ const Customers = () => {
             <div className="logoContainer">
               <a href="">
                 <img className="customer" src={Customer28} alt="" />
+              </a>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="logoContainer">
+              <a href="">
+                <img className="customer" src={Customer29} alt="" />
               </a>
             </div>
           </SwiperSlide>
