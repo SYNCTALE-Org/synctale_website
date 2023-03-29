@@ -13,7 +13,7 @@ const Navbar = () => {
             <li>
               <img src={Logo} className="logo" />{" "}
             </li>
-            <a className="mail">dev.Synctale@gmail.com</a>
+            <a className="mail">hello@synctale.com</a>
           </div>
         </a>
 
