@@ -4,7 +4,7 @@ import OTP2 from "../media/20.png";
 import OTP3 from "../media/19.png";
 import OTP4 from "../media/22.png";
 import OTP5 from "../media/omarpfp.jpeg";
-import OTP6 from "../media/mohammad.jpeg";
+import OTP6 from "../media/mbz.jpg";
 import Facebook from "../media/facebook.svg";
 import Instagram from "../media/instagram.svg";
 import Twitter from "../media/twitter.svg";
@@ -38,7 +38,7 @@ function OurTeam() {
             <div className="pic">
               <img src={OTP6} />
             </div>
-            <h3 className="title">Mohammad Chreif</h3>
+            <h3 className="title">Mohammad Bouzeid</h3>
             <span className="post">Fullstack Web Dev</span>
             <br />
           </div>
