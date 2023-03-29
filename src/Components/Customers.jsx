@@ -114,13 +114,13 @@ const Customers = () => {
               </a>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
+          {/* <SwiperSlide>
             <div className="logoContainer">
               <a href="">
                 <img className="customer" src={Customer8} alt="" />
               </a>
             </div>
-          </SwiperSlide>
+          </SwiperSlide> */}
           <SwiperSlide>
             <div className="logoContainer">
               <a href="">
